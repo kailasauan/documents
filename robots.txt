@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Indexing is disabled while the collection is in layout preview.
