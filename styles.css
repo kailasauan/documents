@@ -267,14 +267,13 @@ ul {
 .wrap {
     max-width: 1180px;
     margin: 0 auto;
-    padding: 0 18px;
+    padding: 22px 18px 0;
 }
 
 .contentarea {
     background: #fffcf7;
-    border-top: 4px solid #5e2121;
-    border-left: 1px solid #e2d8c6;
-    border-right: 1px solid #e2d8c6;
+    border: 1px solid #e2d8c6;
+    box-shadow: 0 1px 3px rgba(56,48,36,.07);
 }
 
 .shell {
