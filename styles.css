@@ -715,6 +715,49 @@ ul {
     color: #7a6c58;
 }
 
+/* === The original document, embedded from Drive === */
+
+.original {
+    border: 1px solid #e2d8c6;
+    margin-bottom: 22px;
+    scroll-margin-top: 14px;
+}
+
+.pdfframe {
+    height: 860px;
+    background: #f7f2e8;
+    border-bottom: 1px solid #e2d8c6;
+}
+
+.pdfframe iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+}
+
+.pdfnote {
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #7a6c58;
+}
+
+/* === Numbered clauses keep the document's own numbering === */
+
+.ftclause {
+    padding-left: 38px;
+    text-indent: -38px;
+    margin-bottom: 14px;
+}
+
+.ftnum {
+    display: inline-block;
+    width: 32px;
+    font-weight: bold;
+    color: #5e2121;
+    text-indent: 0;
+}
+
 .citebox {
     margin-top: 22px;
     border: 1px solid #e2d8c6;
