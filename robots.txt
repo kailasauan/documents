@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-# Indexing is disabled while the collection is in layout preview.
+Sitemap: https://kailasauan.github.io/documents/sitemap.xml

@@ -604,6 +604,144 @@ ul {
     margin-bottom: 14px;
 }
 
+/* === Record page: reference, topics, contents, citation === */
+
+.refbadge {
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 3px 9px;
+    background: #f7f2e8;
+    border: 1px solid #b69d7e;
+    border-radius: 2px;
+    font-family: 'Roboto Condensed', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: #5e2121;
+}
+
+.topiclist li {
+    position: relative;
+    padding: 5px 0 5px 18px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.topiclist li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: #b69d7e;
+}
+
+.toc {
+    border: 1px solid #e2d8c6;
+    margin-bottom: 22px;
+    background: #f7f2e8;
+}
+
+.toc_h {
+    padding: 8px 12px;
+    background: #ece1c8;
+    color: #5e2121;
+    font-family: 'Roboto Condensed', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #b69d7e;
+}
+
+.toc_list {
+    padding: 10px 14px;
+    columns: 2;
+    column-gap: 26px;
+}
+
+.toc_list li {
+    padding: 3px 0;
+    font-size: 13.5px;
+    break-inside: avoid;
+}
+
+.fthead {
+    margin: 26px 0 8px;
+    font-family: 'Roboto Condensed', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #5e2121;
+    scroll-margin-top: 14px;
+}
+
+.fthead:first-child {
+    margin-top: 0;
+}
+
+.ftlist {
+    margin: 0 0 16px 22px;
+}
+
+.ftlist li {
+    margin-bottom: 7px;
+    list-style: disc;
+}
+
+.ftolist {
+    margin: 0 0 16px 22px;
+}
+
+.ftolist li {
+    margin-bottom: 7px;
+    list-style: decimal;
+}
+
+.ftpre {
+    margin-bottom: 16px;
+    padding: 12px 14px;
+    background: #f7f2e8;
+    border: 1px solid #e2d8c6;
+    overflow-x: auto;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 13px;
+    line-height: 1.5;
+    white-space: pre;
+}
+
+.jump {
+    display: block;
+    margin: -4px 0 10px;
+    font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
+    color: #7a6c58;
+}
+
+.citebox {
+    margin-top: 22px;
+    border: 1px solid #e2d8c6;
+}
+
+.citeline {
+    padding: 12px 14px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 14.5px;
+    line-height: 1.7;
+    color: #383024;
+    overflow-wrap: break-word;
+}
+
+.emptystate {
+    padding: 22px 20px;
+    background: #f7f2e8;
+    border: 1px dashed #b69d7e;
+    color: #4f4234;
+    font-size: 15px;
+}
+
+.emptystate p {
+    margin-bottom: 10px;
+    max-width: 720px;
+}
+
 /* === Bits === */
 
 .tags {
