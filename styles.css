@@ -66,6 +66,8 @@ ul {
 .topbar_links {
     display: flex;
     gap: 12px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .topbar a {
@@ -98,6 +100,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .brand:hover {
@@ -282,6 +285,8 @@ ul {
 .maincol {
     padding: 18px 24px 34px 24px;
     min-height: 340px;
+    min-width: 0;
+    overflow-wrap: break-word;
 }
 
 /* === Left menu === */
@@ -399,6 +404,7 @@ ul {
 .panel {
     margin-bottom: 22px;
     border: 1px solid #e2d8c6;
+    min-width: 0;
 }
 
 .panel_h {
@@ -428,7 +434,8 @@ ul {
 .collgrid {
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-bottom: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 }
 
 .collcard {
@@ -733,6 +740,12 @@ ul {
 
 /* === Responsive === */
 
+@media (max-width: 1000px) {
+    .collgrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 900px) {
     .shell {
         grid-template-columns: 1fr;
@@ -743,7 +756,7 @@ ul {
     }
 
     .maincol {
-        padding: 6px 14px 28px;
+        padding: 16px 16px 28px;
     }
 
     .hero_in {
@@ -765,5 +778,67 @@ ul {
 
     .hero_title {
         font-size: 24px;
+    }
+}
+
+@media (max-width: 560px) {
+    .collgrid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .docrow_h {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .brand {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .brand_text {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .brand_mark {
+        height: 52px;
+    }
+
+    .searchbox {
+        width: 100%;
+    }
+
+    .searchbox input {
+        width: 100%;
+    }
+
+    .hero_in {
+        padding: 22px 16px 26px;
+    }
+
+    .maincol {
+        padding: 14px 14px 24px;
+    }
+
+    .brandbar_in {
+        padding: 12px 14px;
+    }
+
+    .mainnav_in {
+        padding: 0 6px;
+    }
+
+    .topbar_in {
+        padding: 0 14px;
+    }
+
+    .foot_in {
+        padding: 0 14px;
     }
 }
