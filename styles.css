@@ -11,7 +11,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
     color: #4f4234;
-    background: #f1ebdf;
+    background: #ece1c8;
 }
 
 a {
@@ -86,7 +86,7 @@ ul {
 .brandbar_in {
     max-width: 1180px;
     margin: 0 auto;
-    padding: 14px 18px;
+    padding: 12px 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,7 +105,7 @@ ul {
 }
 
 .brand_mark {
-    height: 62px;
+    height: 76px;
     width: auto;
 }
 
@@ -280,7 +280,7 @@ ul {
 }
 
 .maincol {
-    padding: 6px 24px 34px 24px;
+    padding: 18px 24px 34px 24px;
     min-height: 340px;
 }
 
@@ -336,7 +336,7 @@ ul {
 /* === Headings, crumbs === */
 
 .crumbs {
-    padding: 12px 0 6px;
+    padding: 0 0 10px;
     font-size: 13px;
     color: #7a6c58;
 }
@@ -501,6 +501,11 @@ ul {
     border-top: 1px solid #e2d8c6;
 }
 
+.panel .doclist {
+    padding: 0 14px;
+    border-top: none;
+}
+
 .docrow {
     padding: 14px 0;
     border-bottom: 1px solid #e2d8c6;
@@ -645,6 +650,18 @@ ul {
     border: 1px solid #f2ce9f;
 }
 
+.btn_outline {
+    background: transparent;
+    border: 1px solid #5e2121;
+    color: #5e2121;
+}
+
+.btn_outline:hover {
+    background: #5e2121;
+    color: #ffffff;
+    border: 1px solid #5e2121;
+}
+
 .actions {
     display: flex;
     gap: 10px;
@@ -739,7 +756,7 @@ ul {
     }
 
     .brand_mark {
-        height: 48px;
+        height: 56px;
     }
 
     .brand_title {
