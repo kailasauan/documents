@@ -918,9 +918,44 @@ ul {
     }
 }
 
+@media (max-width: 760px) {
+    .toc_list {
+        columns: 1;
+    }
+
+    .metakey {
+        width: 150px;
+    }
+
+    .refbadge {
+        font-size: 11px;
+    }
+}
+
 @media (max-width: 560px) {
     .collgrid {
         grid-template-columns: 1fr;
+    }
+
+    .metatable {
+        display: block;
+    }
+
+    .metakey {
+        display: block;
+        width: 100%;
+        border-bottom: none;
+        padding: 8px 10px 2px;
+    }
+
+    .metaval {
+        display: block;
+        padding: 0px 10px 9px;
+    }
+
+    .fulltext_body {
+        padding: 14px 14px;
+        font-size: 15px;
     }
 
     .stats {
@@ -930,6 +965,11 @@ ul {
     .docrow_h {
         flex-direction: column;
         gap: 2px;
+    }
+
+    .docrow_ref {
+        white-space: normal;
+        overflow-wrap: anywhere;
     }
 
     .brand {
