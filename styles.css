@@ -707,6 +707,24 @@ ul {
     white-space: pre;
 }
 
+.ftpage {
+    margin: 22px 0;
+    border-top: 1px solid #e2d8c6;
+    text-align: center;
+    line-height: 0;
+}
+
+.ftpage span {
+    padding: 0 10px;
+    background: #fffcf7;
+    font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #7a6c58;
+    line-height: 1.6;
+}
+
 .jump {
     display: block;
     margin: -4px 0 10px;
